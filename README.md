@@ -1,25 +1,28 @@
-# Two-O-Player-Math-Game
+# TwO-O-Player-Math-Game
 
 ## Game Class
 ### Instance Variables
 - Player 1 Object
 - Player 2 Object
 - Current Player
+- Current Sum
+- Current Answer
 ### Methods
-- Start Game
+- [x] Start Game
 - LOOP
-  - Ask Question
-    - Generate Random Number
-  - Get Answer
+  - [x] Ask Question
+    - [x] Generate Random Number
+  - [x] Get Answer
   - Validate Answer
-    - Answer Correct?
-      - Increase Player Score
+    - [x] Answer Correct?
+      - [x] Increase Player Score
     - Else Answer Incorrect?
-      - End Life
-      - Is Last Life?
+      - [x] End Life
+      - [x] Is Player Dead?
         - GOTO End Game
-  - Change Current Player
-- End Game
+  - [x] Change Player
+    - Reset Data
+- [x] End Game
 
 ## Player Class
 ### Instance Variables
