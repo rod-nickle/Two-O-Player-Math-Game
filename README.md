@@ -9,27 +9,27 @@
 - Current Answer
 ### Methods
 - [x] Start Game
-- LOOP
+- [x] LOOP
   - [x] Ask Question
     - [x] Generate Random Number
   - [x] Get Answer
-  - Validate Answer
+  - [x] Validate Answer
     - [x] Answer Correct?
       - [x] Increase Player Score
-    - Else Answer Incorrect?
+    - [x] Else Answer Incorrect?
       - [x] End Life
       - [x] Is Player Dead?
-        - GOTO End Game
+        - [x] GOTO End Game
   - [x] Change Player
-    - Reset Data
+    - [x] Reset Data
 - [x] End Game
 
 ## Player Class
 ### Instance Variables
+- Number
 - Lives Remaining
-- Score
 ### Methods
-- Kill Life
-- Increase Score
+- [x] Kill Player
+- [x] Player Dead?
 
 
